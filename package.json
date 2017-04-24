@@ -1,0 +1,84 @@
+{
+    "author": "tschrock123@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "luna",
+    "pebble": {
+        "displayName": "Luna",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/luna_dith2.png",
+                    "name": "BG",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Bluetooth-Color.png",
+                    "name": "BLTH",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/Roboto-Bold-Minified.ttf",
+                    "name": "ROBOTO_BOLD_18",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Roboto-Bold-Minified.ttf",
+                    "name": "ROBOTO_BOLD_45",
+                    "type": "font"
+                },
+                {
+                    "file": "images/luna_dith_bw.png",
+                    "name": "BG",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/Battery Sheet-1-0.png",
+                    "name": "BATT",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/Bluetooth_BaW.png",
+                    "name": "BLTH",
+                    "targetPlatforms": [
+                        "aplite"
+                    ],
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/Battery Sheet-1-0c.png",
+                    "name": "BATT",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "6a59e4bb-be53-4e12-af6f-7d3625f46832",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
